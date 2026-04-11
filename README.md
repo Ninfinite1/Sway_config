@@ -1,1 +1,2 @@
-# Sway_config
+#My Sway dots
+It's just my sway dots
