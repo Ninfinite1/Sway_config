@@ -119,9 +119,6 @@ exec swayidle -w \
 bar {
   swaybar_command waybar
 }
-
-
-
 ### Borders and Gaps
 
 #
@@ -129,8 +126,6 @@ bar {
 #
 gaps inner 8px
 gaps outer 4px
-
-
 
 
 #
@@ -142,9 +137,6 @@ default_border pixel 2px
 default_floating_border pixel 2px
 
 #Border Colors
-
-
-
 
 #                       border  bg      text    ind     child border
 client.focused          #000000 #000000 #000000 #000000 #000000
