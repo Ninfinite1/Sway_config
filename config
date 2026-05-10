@@ -126,6 +126,12 @@ exec swayidle -w \
 bar {
   swaybar_command waybar
 }
+
+# Input
+input "type:keyboard" {
+    xkb_options caps:escape
+}
+
 ### Borders and Gaps
 
 #
@@ -140,13 +146,13 @@ gaps outer 12px
 #
 
 #Border width
-default_border pixel 3px
-default_floating_border pixel 3px
+default_border pixel 4px
+default_floating_border pixel 4px
 
 #Border Colors
 
 #                       border  bg      text    ind     child border
-client.focused          #66A4D6 #000000 #0667C6 #000000 #0667C6
+client.focused          #D9E1E2 #000000 #D9E1E2 #000000 #D9E1E2
 client.focused_inactive #66A4D6 #000000 #0667C6 #000000 #0667C6
 client.unfocused        #66A4D6 #000000 #0667C6 #000000 #0667C6
 client.urgent           #66A4D6 #000000 #0667C6 #000000 #0667C6
